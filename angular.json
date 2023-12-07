@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "preserveSymlinks": true,
             "outputPath": "dist/ang-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0ce9c607-6f68-4435-9509-8b5413c667ad"
   }
 }
